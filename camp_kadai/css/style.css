@@ -1,0 +1,33 @@
+.box2 {
+    /* background: red; */
+    /* 注意：幅を決めたものは絶対にサイトの中央にこない */
+    width: 945px;
+    height: 370px;
+    background-image:url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+      /* 短いバージョン
+  background: url("../img/01.jpg") no-repeat center center;
+  background-size: cover; */
+    margin: 0 auto;
+    /* 上下が0　左右がauto */
+
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 22px; */
+    padding-top: 60px;
+}
+
+p {
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 22px; */
+    padding-top: 40px;
+}
